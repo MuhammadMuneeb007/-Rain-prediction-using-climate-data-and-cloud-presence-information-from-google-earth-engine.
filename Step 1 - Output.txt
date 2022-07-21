@@ -1,0 +1,109 @@
+
+
+  Abu Al Abyad   Abu Al Bukhoosh   Abu Dhabi   Ajman   Al Aamerah   ...  Umm Al Quwain   Umm Algaf   Wadi Al Tuwa   Wadi shahah   Yasat 
+0            0.0               NaN         0.0     0.0          0.0  ...             0.0         0.0            0.0           0.0     0.0
+1            0.0               NaN         0.0     0.0          0.0  ...             0.0         0.0            0.0           0.0     0.0
+2            0.0               NaN         0.0     0.0          0.0  ...             0.0         0.0            0.0           0.0     0.0
+3            0.0               NaN         0.0     0.0          0.0  ...             0.0         0.0            0.0           0.0     0.0
+4            0.0               NaN         0.0     0.0          0.0  ...             0.0         0.0            0.0           0.0     0.0
+
+[5 rows x 88 columns]
+Number of Rain stations:  88
+Number of Rain stations locations:  84
+     0  1                2                 3                 4      5              6
+0  0.0  1     Abu Al Abyad  24.2061111111111  53.7908333333333   20 m      2006-2020
+1  1.0  2  Abu Al Bukhoosh            25.495  53.1458333333333   37 m  Feb 2004-2020
+2  2.0  3        Abu Dhabi  24.4772222222222  54.3277777777778    7 m      2003-2020
+3  3.0  4            Ajman  25.4236111111111  55.4447222222222    3 m  May 2013-2020
+4  4.0  5            AlAin  24.2158333333333  55.7936111111111  307 m  Aug 2006-2020
+Station:  Al Aamerah   does not exist in the Rain location!
+Station:  Al Bazam Island   does not exist in the Rain location!
+Station:  Al Marmoom   does not exist in the Rain location!
+Station:  AL Mirfa   does not exist in the Rain location!
+Station:  Algheweifat   does not exist in the Rain location!
+Station:  Bada Dafas   does not exist in the Rain location!
+Station:  Jabal Al Dhanna   does not exist in the Rain location!
+Station:  Ras Ghumais   does not exist in the Rain location!
+Station:  Umm Algaf   does not exist in the Rain location!
+Number of Rain Stations with location information:  (79, 5)
+|    | Station           |   Rain Points |   Non-Rain Points |   Latitude |   Longitude |
+|---:|:------------------|--------------:|------------------:|-----------:|------------:|
+| 28 | Alqlaa            |             0 |             35040 |    24.1553 |     52.9797 |
+| 38 | Dalma             |             0 |             35039 |    24.4908 |     52.2914 |
+| 20 | Al Shawamekh      |             1 |             35039 |    24.3383 |     54.6403 |
+| 36 | Barakah           |             1 |             35006 |    23.9553 |     52.2664 |
+| 24 | Alarad            |             1 |             35039 |    23.8447 |     55.5242 |
+|  0 | Abu Al Abyad      |             2 |             35038 |    24.2061 |     53.7908 |
+| 33 | Alwathbah         |             2 |             35038 |    24.1789 |     54.7031 |
+| 49 | Jabal Hafeet      |             2 |             35038 |    24.0567 |     55.7753 |
+| 13 | Al Jazeera B.G.   |             3 |             35037 |    23.2911 |     52.2889 |
+| 27 | Alkhazna          |             3 |             35037 |    24.1247 |     55.1133 |
+|  1 | Abu Al Bukhoosh   |             3 |             29428 |    25.495  |     53.1458 |
+|  7 | Al Aryam          |             4 |             35036 |    24.3083 |     54.1719 |
+|  6 | Al Ajban          |             4 |             35036 |    24.6078 |     54.8883 |
+| 64 | Mukhariz          |             4 |             35036 |    22.9347 |     52.8778 |
+| 34 | Ashaab            |             5 |             35035 |    24.3864 |     54.8122 |
+| 77 | Sir Bani Yas      |             6 |             35034 |    24.3169 |     52.5978 |
+| 73 | Rowdah            |             7 |             35033 |    24.1017 |     55.5394 |
+| 37 | Bu Humrah         |             7 |             35033 |    23.5058 |     54.53   |
+| 78 | Sir Bu Nair       |             7 |             35033 |    25.22   |     54.2339 |
+|  2 | Abu Dhabi         |             7 |             35033 |    24.4772 |     54.3278 |
+| 72 | Rezeen            |             8 |             35032 |    23.6775 |     54.7456 |
+| 68 | Ras Al khaimah    |             8 |             35032 |    25.7717 |     55.9392 |
+| 87 | Yasat             |             8 |             35031 |    24.1722 |     51.9883 |
+|  3 | Ajman             |             8 |             35032 |    25.4236 |     55.4447 |
+| 19 | Al Rass           |             8 |             35017 |    24.4542 |     54.3175 |
+| 65 | Owtaid            |             9 |             35031 |    23.3956 |     53.1028 |
+| 32 | AlRuwais          |             9 |             35031 |    24.0933 |     52.6228 |
+| 66 | Qarnen            |            10 |             35030 |    24.9417 |     52.8497 |
+| 17 | AL Musaffah       |            10 |             35030 |    24.3717 |     54.4667 |
+| 57 | Madinat Zayed     |            10 |             35030 |    23.6817 |     53.6986 |
+| 22 | Al Shuaibah       |            11 |             35029 |    24.1139 |     55.6072 |
+| 39 | Damtha            |            11 |             35029 |    24.18   |     55.4133 |
+| 31 | ALReem Island     |            12 |             35028 |    24.4961 |     54.4086 |
+| 30 | Alquaa            |            12 |             35028 |    23.3933 |     55.4194 |
+| 58 | Makassib          |            14 |             35024 |    24.6664 |     51.8242 |
+| 40 | Dayyinah Island   |            14 |             35024 |    24.9528 |     52.4003 |
+| 74 | Saih Al Salem     |            14 |             35026 |    24.8275 |     55.3119 |
+| 83 | Umm Al Quwain     |            14 |             35026 |    25.5333 |     55.6583 |
+| 21 | Al Shiweb         |            15 |             35025 |    24.7761 |     55.7981 |
+| 46 | Hamim             |            15 |             35025 |    22.9736 |     54.3028 |
+| 79 | Swiehan           |            15 |             35025 |    24.4661 |     55.3314 |
+| 62 | Mezaira           |            16 |             35024 |    23.145  |     53.7786 |
+| 75 | Saqr Port         |            17 |             35023 |    25.9769 |     56.0567 |
+| 71 | Ras Musherib      |            18 |             35019 |    24.33   |     51.65   |
+| 60 | Margham           |            19 |             35021 |    24.8842 |     55.55   |
+| 52 | Jabal Yanas       |            21 |             35019 |    25.7319 |     56.0944 |
+| 25 | Alfoah            |            21 |             35019 |    24.3339 |     55.8061 |
+| 67 | Raknah            |            21 |             35019 |    24.3456 |     55.7081 |
+| 81 | Um Azimul         |            22 |             35018 |    22.7142 |     55.1386 |
+| 56 | Lahbab            |            23 |             35017 |    25.0292 |     55.6131 |
+| 10 | Al Faqa           |            23 |             35017 |    24.7189 |     55.6214 |
+| 86 | Wadi shahah       |            23 |             35017 |    25.9028 |     56.1356 |
+|  5 | AlAin             |            24 |             35016 |    24.2158 |     55.7936 |
+| 80 | UAE University    |            24 |             35016 |    24.195  |     55.6789 |
+| 69 | Ras Ganadah       |            24 |             35016 |    24.8364 |     54.7667 |
+| 43 | Falaj Al Moalla   |            25 |             35015 |    25.3378 |     55.8661 |
+| 63 | Mezyed            |            26 |             35014 |    24.0286 |     55.8478 |
+|  9 | Al Dhaid          |            27 |             35011 |    25.2369 |     55.8169 |
+| 53 | Jumeirah          |            28 |             35012 |    25.0889 |     55.1356 |
+| 23 | Al Tawiyen        |            30 |             34999 |    25.56   |     56.0703 |
+| 45 | Gasyoura          |            30 |             35010 |    22.8286 |     54.8194 |
+| 18 | Al Qatara         |            30 |             35010 |    24.2661 |     55.7553 |
+| 44 | Fujairah Port     |            32 |             35008 |    25.1725 |     56.3611 |
+| 42 | Dibba             |            34 |             35000 |    25.575  |     56.2261 |
+| 11 | Al FarFar         |            40 |             34984 |    25.1664 |     56.1761 |
+| 76 | Shoukah           |            42 |             34998 |    25.1058 |     56.0481 |
+| 14 | Al Malaiha        |            43 |             34997 |    25.1306 |     55.8881 |
+| 61 | Masafi            |            44 |             34996 |    25.4475 |     56.1172 |
+| 51 | Jabal Mebreh      |            44 |             34994 |    25.6469 |     56.1294 |
+| 41 | Dhudna            |            47 |             34950 |    25.5111 |     56.3247 |
+| 82 | Um Ghafa          |            47 |             34993 |    24.0667 |     55.9333 |
+| 50 | Jabal Jais        |            48 |             34992 |    25.95   |     56.1722 |
+| 59 | Manama            |            49 |             34991 |    25.3853 |     56.0081 |
+| 29 | AlQor             |            49 |             34991 |    24.9064 |     56.1519 |
+| 55 | Khatam Al Shaklah |            58 |             34982 |    24.2111 |     55.9519 |
+| 54 | Kalba             |            64 |             34976 |    25.005  |     56.335  |
+| 85 | Wadi Al Tuwa      |            71 |             34969 |    25.0222 |     54.1264 |
+| 47 | Hatta             |            79 |             34961 |    24.8111 |     56.1375 |
+| 12 | Al Heben          |            80 |             34893 |    25.1258 |     56.1575 |
