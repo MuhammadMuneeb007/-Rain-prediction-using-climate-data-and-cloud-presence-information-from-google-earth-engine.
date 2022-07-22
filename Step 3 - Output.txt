@@ -1,0 +1,116 @@
+Total number of file : 27487
+Total number of stations in COSMO: 89
+AbuDhabi_AP 24.425 54.65
+AbuMusa 25.85 55.05
+Ajman 25.425 55.5
+Ajman_City 25.4 55.5
+AlAin_AP 24.275 55.6
+AlAin_City 24.225 55.8
+AlDhaid 24.225 55.8
+AlManama 25.375 56.0
+AlQlaa 24.15 52.975
+Bateen_AP 24.425 54.45
+DALMA_CO 24.55 52.325
+DEBA_CO 25.625 56.3
+DEWA 24.75 55.4
+DUBAI_CO 25.05 55.05
+Dhafra 24.25 54.55
+Dubai_AP 25.25 55.325
+Dubai_DXB 25.25 55.35
+EXPO2020_ 25.25 55.35
+EXPO2020 25.25 55.35
+Emirates_Road 25.15 55.475
+FUJAIRAH_CO 25.125 56.5
+Fujairah_AP 25.125 56.325
+Fujairah_City 25.1 56.325
+GPS_01_ 25.1 56.325
+GPS_02_ 25.1 56.325
+GPS_03_ 25.1 56.325
+GPS_04_ 25.1 56.325
+GPS_05_ 25.1 56.325
+GPS_06_ 25.1 56.325
+GPS_07_ 25.1 56.325
+GPS_08_ 25.1 56.325
+GPS_09_ 25.1 56.325
+GPS_10_ 25.1 56.325
+GPS_11_ 25.1 56.325
+GPS_12_ 25.1 56.325
+GPS_13_ 25.1 56.325
+GPS_14_ 25.1 56.325
+GPS_15_ 25.1 56.325
+GPS_16_ 25.1 56.325
+GPS_17_ 25.1 56.325
+GPS_18_ 25.1 56.325
+GPS_19_ 25.1 56.325
+GPS_20_ 25.1 56.325
+GPS_21_ 25.1 56.325
+GPS_22_ 25.1 56.325
+GPS_23_ 25.1 56.325
+GPS_24_ 25.1 56.325
+GPS_25_ 25.1 56.325
+GPS_26_ 25.1 56.325
+GreaterTunb 26.275 55.3
+Hamim 22.475 54.3
+Hatta 24.8 56.125
+JabalJais 25.95 56.175
+Jabal_Ali 25.05 55.125
+KHOORFAKAN_CO 25.35 56.375
+KhalifaTower 25.2 55.25
+LesserTunb 26.25 55.15
+MadinatZayed 23.625 53.625
+Maleha 23.625 53.625
+Mezaira 23.15 53.775
+Mubreh_Mount 25.3 56.325
+Outside_HRSR 25.175 55.325
+Owtaid 23.4 53.1
+RAK_City 25.8 55.975
+RASKHAIMAH_CO 25.8 55.8
+Raknna 24.35 55.7
+RasKhaimah_AP 25.625 55.925
+SHARRJAH_CO 25.05 55.0
+SIRBUNAIR_CO 25.225 54.0
+Saih_AlDahal 24.775 55.35
+Saih_AlSalem 24.825 55.3
+Shams_1 24.825 55.3
+Sharjah_AP 25.325 55.525
+Sharjah_City 25.35 55.425
+Shis 25.35 55.425
+Sweihan 24.475 55.325
+UMMALQUWAIN_CO 25.575 55.55
+UmAlQuwain_City 25.5 55.55
+UmmAlQuwain 25.525 55.65
+WadiHelo 25.525 55.65
+Zaabel 25.225 55.3
+      lat    lon         file  lat_radians_A  long_radians_A
+0  24.425  54.65  AbuDhabi_AP       0.426297        0.953822
+1  25.850  55.05      AbuMusa       0.451168        0.960804
+2  25.425  55.50        Ajman       0.443750        0.968658
+3  25.400  55.50   Ajman_City       0.443314        0.968658
+4  24.275  55.60     AlAin_AP       0.423679        0.970403
+              Station  Rain Points  Non-Rain Points   Latitude  Longitude  lat_radians_B  long_radians_B
+74  Khatam Al Shaklah           58            34982  24.211111  55.951944       0.422564        0.976546
+75              Kalba           64            34976  25.005000  56.335000       0.436420        0.983231
+76       Wadi Al Tuwa           71            34969  25.022222  54.126389       0.436720        0.944684
+77              Hatta           79            34961  24.811111  56.137500       0.433036        0.979784
+78           Al Heben           80            34893  25.125833  56.157500       0.438529        0.980133
+/home/muneeb/anaconda3/envs/gdal/lib/python3.8/site-packages/sklearn/neighbors/_distance_metric.py:10: FutureWarning: sklearn.neighbors.DistanceMetric has been moved to sklearn.metrics.DistanceMetric in 1.0. This import path will be removed in 1.3
+  warnings.warn(
+             Station         file       miles    Rainlat    Rainlon  Cosmolat  Cosmolon
+0  Khatam Al Shaklah  AbuDhabi_AP   83.300452  24.211111  55.951944    24.425     54.65
+1              Kalba  AbuDhabi_AP  113.101433  25.005000  56.335000    24.425     54.65
+2       Wadi Al Tuwa  AbuDhabi_AP   52.753649  25.022222  54.126389    24.425     54.65
+3              Hatta  AbuDhabi_AP   97.173672  24.811111  56.137500    24.425     54.65
+4           Al Heben  AbuDhabi_AP  106.252562  25.125833  56.157500    24.425     54.65
+        Rainlocation  Cosmolocation   Distance    Rainlat    Rainlon  Cosmolat  Cosmolon
+0  Khatam Al Shaklah     AlAin_City   9.622961  24.211111  55.951944    24.225    55.800
+1              Kalba  Fujairah_City   6.594049  25.005000  56.335000    25.100    56.325
+2       Wadi Al Tuwa   SIRBUNAIR_CO  16.088527  25.022222  54.126389    25.225    54.000
+3              Hatta          Hatta   1.097335  24.811111  56.137500    24.800    56.125
+4           Al Heben   Mubreh_Mount  15.952283  25.125833  56.157500    25.300    56.325
+Total number of file : 1805
+Total number of stations in COSMO: 5
+Station:  AlAin_City  Done!
+Station:  Fujairah_City  Done!
+Station:  SIRBUNAIR_CO  Done!
+Station:  Hatta  Done!
+Station:  Mubreh_Mount  Done!
