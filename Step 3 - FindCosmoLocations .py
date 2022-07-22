@@ -79,7 +79,7 @@ print("Total number of stations in COSMO:",len(stations))
 
 stations_with_complete_data = 0
 
-# For each station read all the files. There are about 361 files for each station. 
+# For each station, read all the files. There are about 361 files for each station. 
 
 for station  in list(stations.keys())[8:]:
     station_files = list(filter(lambda x: station in x, newfiles))
@@ -217,8 +217,8 @@ rainlocation = rainlocation[rainlocation['Rain Points']>50]
 cosmolocations = pd.read_csv("./Cosmo/cosmolocations.csv")
 finddistance(cosmolocations,rainlocation)
 
-# After calculating the distance between rain guages and cosmo stations the next step is to
-# read the cosmo stations informations and merge into one file.
+# After calculating the distance between rain gauges and cosmo stations, the next step is to
+# read the cosmo stations' information and merge it into one file.
 
 def readstation(station,filenames,rainname):
     columns = ['HH' ,  'PMSL' ,   'DF10M'  ,'DF500M' ,  'DF850'  , 'DF700'  , 'DF500' ,  'TG'  , 'T2M'  , 'TD2M' , 'T30M' , 'T850' , 'T700' , 'T500' ,'HML' ,'fog'  ,'HBAS' ,'HTOP'  ,'RR'    ,'RS',     'WS','h',   'hpa',  'dgr','degree', 'centrigrade','octas','10*m','mm','m']
@@ -290,4 +290,3 @@ for loop in range(0,len(cosmonames)):
    XX = list(filter(lambda x: "_City" not in x, XX))
   lat,lon = readstation(cosmonames[loop],XX,rainnames[loop])
  print("Station: ",cosmonames[loop]," Done!") 
-
