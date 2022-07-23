@@ -29,3 +29,19 @@ S0train: Number of instances of class NoRain\_Cloud in training data.
 S1train: Number of instances of class Rain\_Cloud in test data. 	
 S0test: Number of instances of class NoRain\_Cloud in test data.	
 S1test: Number of instances of class Rain\_Cloud in test data.	
+
+
+Results for: Khatam Al Shaklah
+X:  NaiveBayes0.2.csv Accuracy:  72.2
+
+Results for: Kalba
+X:  LinearSVM0.0.csv Accuracy:  79.2
+
+Results for: Wadi Al Tuwa
+X:  LinearSVM0.0.csv Accuracy:  71.0
+
+Results for: Hatta
+X:  LinearSVM0.0.csv Accuracy:  87.6
+
+Results for: Al Heben
+X:  LinearSVM0.0.csv Accuracy:  71.6
